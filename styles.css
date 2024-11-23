@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-    --primary-color: #1d4b14;
+    --primary-color: #154a0a;
     --primary-color-dark: #13670d;
     --secondary-color: #a9ca04;
     --text-dark: #626c6a;
-    --text-light: #0b0c0c;
+    --text-light: #626c6a;
     --extra-light: #183225;
     --max-width: 1200px;
-    --hover-color: #0076b6; 
+    --hover-color: #090a0a; 
   }
 
 * {
@@ -46,7 +46,7 @@ nav {
 nav .logo a {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
   transition: 0.3s;
 }
 nav .logo a:hover {
@@ -166,7 +166,7 @@ ul li a:hover {
 
 .portfolio:hover {
   background-color: var(--primary-color);
-  color: #12973a;
+  color: #07100a;
 }
 
 .portfolio:hover .subtitle {
@@ -179,9 +179,8 @@ ul li a:hover {
 }
 
 .image img {
-  width: min(20rem, 90%);
-  height: 20rem;
-  border-radius: 100%;
+  width: min(30rem, 100%);
+  height: 40rem;
   object-fit: cover;
 }
 
